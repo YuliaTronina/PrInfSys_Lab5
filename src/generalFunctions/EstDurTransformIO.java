@@ -3,7 +3,7 @@ package generalFunctions;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class EstDurTransformIO {
+public class EstDurTransformIO { //Qп - Оценка продолжительности преобразования входного набора данных в выходной
     public static double [] actualConversionDuration (ArrayList<String> lines, double [] arr) { // Tп
         double allowedConversionTime = Double.parseDouble(lines.get(5));
         double leftSide = arr[0]; // левый предел

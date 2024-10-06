@@ -3,7 +3,7 @@ package generalFunctions;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class AverageRecTime {
+public class AverageRecTime { // Расчет Qв - оценка по среднему времени восстановления
     public static double recoveryTime (double [] array) { // метод, выполняющий рассчет Тв
         double leftSide = array[0]; // левый предел
         double rightSide = array[1]; // правый предел
